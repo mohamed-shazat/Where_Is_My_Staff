@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/3add9ea659.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="body">
+        <div class="container">
+            <nav>
+                <span><button class="home" type="button" onclick="document.location='file:///D:/SE%20PROJECT/index.html#'"><i class="fa-solid fa-house"></i>Home</button></span>
+                <ul>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./help.html">Help</a></li>
+                    <li><a href="./contact.html">contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="form-box">
+            <div class="c_login">Login</div>
+          <div class="button-box">
+              <div class="btn" id="btn"></div>
+              <button type="button" class="click-btn" onclick="log()" id="log" >Student</button>
+              <button type="button" class="click-btn" onclick="reg()" id="reg" >Staff</button>
+          </div>
+          <form id="login" action="login.php" method="get" class="input-group">
+            <input type="text" class="input-text" name="email" placeholder="College email id" required>
+            <input type="password" class="input-text" name="password" id="password" placeholder="Password" required><i onclick="button()" class="fa-sharp fa-solid fa-eye-slash" id="eye-icon"></i>
+            <button type="submit" class="submit-btn">Login</button>
+          </form>
+          <form id="register" action="reg.php" class="input-group">
+            <input type="email" class="input-text" placeholder="College email Id" required>
+            <input type="password" class="input-text" name="password" id="pass" placeholder="Password" required><i onclick="regbtn()" class="fa-sharp fa-solid fa-eye-slash" id="eye"></i>
+            <button type="submit" class="submit-btn">Login</button>
+          </form>
+        </div>
+    </div>
+    <script>
+        var login = document.getElementById("login")
+        var regis = document.getElementById("register")
+        var btn = document.getElementById("btn")
+        var x = document.getElementById("log")
+        var y = document.getElementById("reg")
+        function log(){
+            login.style.left= "50px"
+            regis.style.left= "450px"
+            btn.style.left= "0px"
+            y.style.color="black"
+            x.style.color="white"
+        }
+        function reg(){
+            login.style.left= "-400px"
+            regis.style.left= "50px"
+            btn.style.left= "110px"
+            y.style.color="white"
+            x.style.color="black"
+        }
+    </script>
+    <script>
+        var passw = document.getElementById("password")
+        var eyei = document.getElementById("eye-icon")
+        function button(){
+            if(passw.type=="password"){
+                passw.type="text"
+                eyei.classList="fa-solid fa-eye"
+            }else{
+                passw.type="password"
+                eyei.classList="fa-sharp fa-solid fa-eye-slash"
+            }
+        }
+    </script>   
+    <script>
+        var pass = document.getElementById("pass")
+        var eye = document.getElementById("eye")
+        function regbtn(){
+            if(pass.type=="password"){
+                pass.type="text"
+                eye.classList="fa-solid fa-eye"
+            }else{
+                pass.type="password"
+                eye.classList="fa-sharp fa-solid fa-eye-slash"
+            }
+        }
+        
+         var cont = document.getElementsByClassName("container")
+         var dep = document.getElementById("bar")
+        function bar(){
+            dep.style.display="block"
+        }
+        function con(){
+            dep.style.display="none"
+        }
+    </script>   
+</body>
+</html>

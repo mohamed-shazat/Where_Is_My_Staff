@@ -1,0 +1,177 @@
+[
+    {
+      "STAFF_NAME":"Aravinth",
+      "STAFF_CODE": "CS1905",
+      "STAFF_DEPARTMENT": "CSE",
+      "STAFF_EMAILID": "aravinth@edu.in",
+      "STAFF_CONTACT_NO": 9952824211
+    },
+    {
+      "STAFF_NAME": "Dharshini",
+      "STAFF_CODE": "CS1002",
+      "STAFF_DEPARTMENT": "CSE",
+      "STAFF_EMAILID": "dharshini@edu.in",
+      "STAFF_CONTACT_NO": 8885636370
+    },
+    {
+      "STAFF_NAME": "Ekambaram",
+      "STAFF_CODE": "CS1604",
+      "STAFF_DEPARTMENT": "CSE",
+      "STAFF_EMAILID": "ekambaram@edu.in",
+      "STAFF_CONTACT_NO": 6366872230
+    },
+    {
+      "STAFF_NAME": "Malik",
+      "STAFF_CODE": "CS0501",
+      "STAFF_DEPARTMENT": "CSE",
+      "STAFF_EMAILID": "malik@edu.in",
+      "STAFF_CONTACT_NO": 7200663630
+    },
+    {
+      "STAFF_NAME": "Shalini",
+      "STAFF_CODE": "CS1303",
+      "STAFF_DEPARTMENT": "CSE",
+      "STAFF_EMAILID": "shalini@edu.in",
+      "STAFF_CONTACT_NO": 8744647200
+    },
+    {
+      "STAFF_NAME": "Arumugam",
+      "STAFF_CODE": "IT1203",
+      "STAFF_DEPARTMENT": "IT",
+      "STAFF_EMAILID": "arumugam@edu.in",
+      "STAFF_CONTACT_NO": 6366739246
+    },
+    {
+      "STAFF_NAME": "Dhivakar",
+      "STAFF_CODE": "IT0801",
+      "STAFF_DEPARTMENT": "IT",
+      "STAFF_EMAILID": "dhivakar@edu.in",
+      "STAFF_CONTACT_NO": 9915167730
+    },
+    {
+      "STAFF_NAME": "Elankovan",
+      "STAFF_CODE": "IT1905",
+      "STAFF_DEPARTMENT": "IT",
+      "STAFF_EMAILID": "elankovan@edu.in",
+      "STAFF_CONTACT_NO": 7216181135
+    },
+    {
+      "STAFF_NAME": "Meenakshi",
+      "STAFF_CODE": "IT1704",
+      "STAFF_DEPARTMENT": "IT",
+      "STAFF_EMAILID": "meenakshi@edu.in",
+      "STAFF_CONTACT_NO": 8700041332
+    },
+    {
+      "STAFF_NAME": "Shuba",
+      "STAFF_CODE": "IT1102",
+      "STAFF_DEPARTMENT": "IT",
+      "STAFF_EMAILID": "shuba@edu.in",
+      "STAFF_CONTACT_NO": 8438668830
+    },
+    {
+      "STAFF_NAME": "Arul",
+      "STAFF_CODE": "ME1003",
+      "STAFF_DEPARTMENT": "MECH",
+      "STAFF_EMAILID": "arul@edu.in",
+      "STAFF_CONTACT_NO": 9956860030
+    },
+    {
+      "STAFF_NAME": "Dinesh",
+      "STAFF_CODE": "ME0702",
+      "STAFF_DEPARTMENT": "MECH",
+      "STAFF_EMAILID": "dinesh@edu.in",
+      "STAFF_CONTACT_NO": 8886053230
+    },
+    {
+      "STAFF_NAME": "Ezhil",
+      "STAFF_CODE": "ME0401",
+      "STAFF_DEPARTMENT": "MECH",
+      "STAFF_EMAILID": "ezhil@edu.in",
+      "STAFF_CONTACT_NO": 7236680506
+    },
+    {
+      "STAFF_NAME": "Mani",
+      "STAFF_CODE": "ME1404",
+      "STAFF_DEPARTMENT": "MECH",
+      "STAFF_EMAILID": "mani@edu.in",
+      "STAFF_CONTACT_NO": 8400363730
+    },
+    {
+      "STAFF_NAME": "Shankar",
+      "STAFF_CODE": "ME1705",
+      "STAFF_DEPARTMENT": "MECH",
+      "STAFF_EMAILID": "shankar@edu.in",
+      "STAFF_CONTACT_NO": 6300663637
+    },
+    {
+      "STAFF_NAME": "Adhavan",
+      "STAFF_CODE": "EC1002",
+      "STAFF_DEPARTMENT": "ECE",
+      "STAFF_EMAILID": "adhavan@edu.in",
+      "STAFF_CONTACT_NO": 8886232630
+    },
+    {
+      "STAFF_NAME": "Divya",
+      "STAFF_CODE": "EC1504",
+      "STAFF_DEPARTMENT": "ECE",
+      "STAFF_EMAILID": "divya@edu.in",
+      "STAFF_CONTACT_NO": 9956863630
+    },
+    {
+      "STAFF_NAME": "Elakiya",
+      "STAFF_CODE": "EC0801",
+      "STAFF_DEPARTMENT": "ECE",
+      "STAFF_EMAILID": "elakiya@edu.in",
+      "STAFF_CONTACT_NO": 7200668880
+    },
+    {
+      "STAFF_NAME": "Manogaran",
+      "STAFF_CODE": "EC1705",
+      "STAFF_DEPARTMENT": "ECE",
+      "STAFF_EMAILID": "manogaran@edu.in",
+      "STAFF_CONTACT_NO": 6365668778
+    },
+    {
+      "STAFF_NAME": "Sanjay",
+      "STAFF_CODE": "EC1303",
+      "STAFF_DEPARTMENT": "ECE",
+      "STAFF_EMAILID": "sanjay@edu.in",
+      "STAFF_CONTACT_NO": 8405063630
+    },
+    {
+      "STAFF_NAME": "Akash",
+      "STAFF_CODE": "EE0501",
+      "STAFF_DEPARTMENT": "EEE",
+      "STAFF_EMAILID": "akash@edu.in",
+      "STAFF_CONTACT_NO": 9960803630
+    },
+    {
+      "STAFF_NAME": "Dhanalakshmi",
+      "STAFF_CODE": "EE1503",
+      "STAFF_DEPARTMENT": "EEE",
+      "STAFF_EMAILID": "dhanalakshmi@edu.in",
+      "STAFF_CONTACT_NO": 8884346660
+    },
+    {
+      "STAFF_NAME": "Eswaran",
+      "STAFF_CODE": "EE1804",
+      "STAFF_DEPARTMENT": "EEE",
+      "STAFF_EMAILID": "eswaran@edu.in",
+      "STAFF_CONTACT_NO": 8488353630
+    },
+    {
+      "STAFF_NAME": "Muthu",
+      "STAFF_CODE": "EE1202",
+      "STAFF_DEPARTMENT": "EEE",
+      "STAFF_EMAILID": "muthu@edu.in",
+      "STAFF_CONTACT_NO": 7200667750
+    },
+    {
+      "STAFF_NAME": "Sunil",
+      "STAFF_CODE": "EE1905",
+      "STAFF_DEPARTMENT": "EEE",
+      "STAFF_EMAILID": "sunil@edu.in",
+      "STAFF_CONTACT_NO": 6366364580
+    }
+]

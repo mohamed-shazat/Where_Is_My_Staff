@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/150dada91f.js" crossorigin="anonymous"></script>
+    <title>STAFFDETECTORS</title>
+    <script src=
+"https://code.jquery.com/jquery-3.5.1.js">
+    </script>
+</head>
+<body>
+    <div class="container" >
+        <nav>
+            <span><button class="home" type="button" ><i class="fa-solid fa-house"></i>Home</button></span>
+            <ul>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./help.html">Help</a></li>
+                <li><a href="./contact.html">contact Us</a></li>
+            </ul>
+            <button class="btn" type="button" onclick="document.location='login.html'"><i class="fa-solid fa-circle-user"></i>login</button>
+        </nav>
+        <form>
+            <input type="text" id="search_bar" placeholder="Staff Code" onclick="loadNames()">
+            <button type="button" class="btn" onclick="loadNames()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div id="staff_box">
+            <div id="staff_data"></div>
+        </div>
+    </div>
+    
+    <!-- <div>sample</div> -->
+
+    <script>
+        var data;
+         var cont = document.getElementsByClassName("container")
+         var dep = document.getElementById("bar")
+        function bar(){
+            dep.style.display="block"
+        }
+        function con(){
+            dep.style.display="none"
+        }
+        setInterval(document.getElementById("search_bar"));
+        async function loadNames() {
+            // localStorage.clear()
+        // window.location.reload()
+
+            if(document.getElementById("search_bar").value=="")
+            {
+                document.getElementById("staff_data").innerHTML= ``;
+                const response = await fetch("sample.json");
+            const names = await response.json();
+            localStorage.setItem("dataaa",JSON.stringify(names));
+            console.log("none");
+            const ele = JSON.parse(localStorage.getItem("dataaa"));
+            ele.forEach(element => {
+            document.getElementById("staff_data").innerHTML += `<div id="staff_data1">NAME : ${element.STAFF_NAME}<br>STAFF CODE : ${element.STAFF_CODE}<br>DEPARTMENT : ${element.STAFF_DEPARTMENT}<br>EMAIL : ${element.STAFF_EMAILID}<br> CONTACT NO : ${element.STAFF_CONTACT_NO}</div>`;
+            // <div>{element.STAFF_NAME}</div>
+});
+            }
+            else{
+                document.getElementById("staff_data").innerHTML = ``;
+                console.log("not none");
+                const response = await fetch("sample.json");
+                const names = await response.json();
+                console.log(names);
+                var filter_data = names.filter(function (entry) {
+                return entry.STAFF_CODE == document.getElementById("search_bar").value || entry.STAFF_DEPARTMENT == document.getElementById("search_bar").value || entry.STAFF_NAME == document.getElementById("search_bar").value;
+                });
+                console.log(filter_data);
+                localStorage.setItem("dataaa",JSON.stringify(filter_data));
+                const ele = JSON.parse(localStorage.getItem("dataaa"));
+            ele.forEach(element => {
+            document.getElementById("staff_data").innerHTML += `<div id="staff_data1">NAME : ${element.STAFF_NAME}<br>STAFF CODE : ${element.STAFF_CODE}<br>DEPARTMENT : ${element.STAFF_DEPARTMENT}<br>EMAIL : ${element.STAFF_EMAILID}<br> CONTACT NO : ${element.STAFF_CONTACT_NO}</div>`;
+            // <div>{element.STAFF_NAME}</div>
+});
+            }
+            
+        }
+window.onload = loadNames;
+// setInterval(loadNames,1000);
+
+// ele.array.forEach(element => {
+//     console.log(element.STAFF_NAME);
+// });
+console.log(ele[0]);
+
+</script>
+    </script>
+</body>
+</html>
